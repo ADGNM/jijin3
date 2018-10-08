@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://www.see.org.cn/ -->
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>阿拉善SEE</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script src="js/hm.js"></script>
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/function.js"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?e0c65ee9dab2fa3de9349c67e12a0f25";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="index" indexnewnum="1" indexoldnum="0">
+			<div class="mImg" style="background-image:url(images/01.jpg); display: block;"></div>
+			<div class="mImg" style="background-image:url(images/02.jpg); display: none;"></div>
+
+			<div class="indexMenu">
+				<a class="l" href="index1.html">
+					<dl class="left">
+						<dt class="fb">促进绿色低碳专项公益基金</dt>
+						<dd>促进绿色低碳专项公益基金内容【暂无】</dd>
+					</dl>
+				</a>
+
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				//启动图片切换
+				focusAutoImg($('.index .mImg'));
+				$(window).bind('resize load', function() {
+					//页面高度是否超过800
+					if ($(window).height() > 800) {
+						$('.index').height($(window).height());
+					}
+				});
+			});
+		</script>
+
+	</body>
+
+</html>
